@@ -16,8 +16,9 @@
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
-  --link-color: rgb(138, 180, 248);
-  --link-underline-color: rgb(82, 108, 150);
+  --link-color: #6600AE;
+  --link-underline-color: #6600AE;
+  --link-hover-color: rgb(118, 120, 121);
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
   --btn-backtotop-color: var(--text-color);
@@ -25,7 +26,7 @@
   --btn-box-shadow: var(--main-bg);
   --card-header-bg: #292929;
   --checkbox-color: rgb(118, 120, 121);
-  --checkbox-checked-color: var(--link-color);
+  --checkbox-checked-color: #6600AE;
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
   --shimmer-bg: linear-gradient(
     90deg,
@@ -59,7 +60,8 @@
   --btn-paginator-hover-color: #2e2e2e;
 
   /* Posts */
-  --toc-highlight: rgb(116, 178, 243);
+  --bs-btn-hover-bg: #6600AE;
+  --toc-highlight: #6600AE;
   --tag-hover: rgb(43, 56, 62);
   --tb-odd-bg: #252526; /* odd rows of the posts' table */
   --tb-even-bg: rgb(31, 31, 34); /* even rows of the posts' table */

@@ -601,7 +601,7 @@ main {
 /* Overwrite bootstrap outline button */
 .btn.btn-outline-primary {
   &:not(.disabled):hover {
-    border-color: #007bff !important;
+    border-color: var(--card-hovor-bg) !important;
   }
 }
 
@@ -860,7 +860,7 @@ $btn-mb: 0.5rem;
   }
 
   .post-preview {
-    transition: background-color 0.35s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
   }
 }
 
@@ -1472,11 +1472,11 @@ search {
     padding-left: 1.75rem !important;
     padding-right: 1.75rem !important;
   }
-
+/*
   main.col-12,
   #tail-wrapper {
     padding-right: 4.5rem !important;
-  }
+  }*/
 
   #back-to-top {
     right: calc(
