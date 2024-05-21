@@ -52,13 +52,13 @@
 // Container => Limit size
 #main-wrapper > .container {
 	max-width: 1100px;
-}
-/*
+}*/
+
 // Container => Limit posts size
-#main-wrapper > .container-posts {
-	max-width: 1300px;
+#main-wrapper > .container-home {
+	max-width: 1100px;
 }
-*/
+
 
 /* Post preview => Transition card color */
 .post-preview * {
