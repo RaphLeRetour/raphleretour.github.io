@@ -23,8 +23,13 @@ layout: compress
       <div class="container d-flex flex-column px-xxl-5">
         {% include topbar.html lang=lang %}
 
-        <div class="row flex-grow-1">
-          <main aria-label="Main Content" class="d-flex align-items-center justify-content-between px-lg-3 h-100">
+        <div class="column flex-grow-1">
+          <main aria-label="Main Content" class="align-items-center justify-content-between px-lg-3 h-100">
+
+            <div id="cover-image" class="flex-grow-1 px-xl-1">
+              <img src="/assets/img/columns.jpeg" class="img-cover" alt="Raphaël Richard">
+            </div>
+
             {% if layout.refactor or layout.layout == 'default' %}
               {% include refactor-content.html content=content lang=lang %}
             {% else %}

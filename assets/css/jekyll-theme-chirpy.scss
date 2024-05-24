@@ -102,3 +102,14 @@
 	color: #FFFFFF !important;
 	background: #361a50 !important;
 }
+
+/* Home => Cover image */
+.img-cover {
+	height: 30vh;
+	position: relative;
+	max-width: auto;
+	width: 100%;
+	user-select: none; 
+	object-fit: cover;
+	object-position: center 47%;
+}

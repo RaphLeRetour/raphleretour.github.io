@@ -2,10 +2,7 @@
 
 {% assign _content = include.content %}
 
-<!--
-  In order to allow a wide table to scroll horizontally,
-  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
--->
+<div class="table-wrapper"></div>
 
 {% if _content contains '<table' %}
   {% assign _content = _content
