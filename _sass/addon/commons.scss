@@ -209,10 +209,6 @@ i {
     border-radius: 0.8rem;
     padding: 0.3rem 0.5rem;
     margin: 0 0.35rem 0.5rem 0;
-
-    &:hover {
-      transition: all 0.3s ease-in;
-    }
   }
 }
 
@@ -468,10 +464,6 @@ main {
   }
 } /* .content */
 
-.tag:hover {
-  @extend %tag-hover;
-}
-
 .post-tag {
   display: inline-block;
   min-width: 2rem;
@@ -481,10 +473,6 @@ main {
   padding: 0 0.4rem;
   color: var(--text-muted-color);
   line-height: 1.3rem;
-
-  &:not(:last-child) {
-    margin-right: 0.2rem;
-  }
 }
 
 .rounded-10 {
@@ -1004,14 +992,6 @@ search {
     border: none;
     padding: 0.5rem;
     margin: 0 1.25rem 1rem 0;
-
-    &::before {
-      content: '#';
-      color: var(--text-muted-color);
-      padding-right: 0.2rem;
-    }
-
-    @extend %link-color;
   }
 }
 

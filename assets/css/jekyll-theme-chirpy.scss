@@ -114,6 +114,12 @@
 	object-position: center 47%;
 }
 
+/* Text color */
 .embed-audio + em, .embed-video + em, .content a.popup + em {
 	color: var(--text-muted-color);
+}
+
+/* Posts => Tags margin */
+.post-tags {
+	margin-bottom: 20px;
 }

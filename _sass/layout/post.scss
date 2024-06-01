@@ -47,7 +47,7 @@ header {
 .post-tail-wrapper {
   @extend %text-sm;
 
-  margin-top: 1rem;
+  margin-top: 3rem;
   border-bottom: 1px double var(--main-border-color);
 
   .license-wrapper {
@@ -128,14 +128,6 @@ header {
 
 .post-tags {
   line-height: 2rem;
-
-  .post-tag {
-    &:hover {
-      @extend %link-hover;
-      @extend %tag-hover;
-      @extend %no-bottom-border;
-    }
-  }
 }
 
 .post-navigation {

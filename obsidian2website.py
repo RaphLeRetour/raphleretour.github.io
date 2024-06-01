@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
         # Extract title and compute file name
         post_title = str(post).split('.', 1)[0]
-        filename = post_title.replace(' ', '-').replace('é', 'e').replace('è', 'e').replace('à', 'a').lower()
+        filename = post_title.replace(' ', '-').replace('é', 'e').replace('è', 'e').replace('à', 'a').replace('(', '').replace(')', '').replace(',', '').lower()
 
         # Copy and rename Markdown file in destination directory
         destination_path = os.path.join(posts_dest, "2000-01-01-" + filename + ".md")
