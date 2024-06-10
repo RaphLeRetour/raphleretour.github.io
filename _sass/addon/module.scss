@@ -193,3 +193,9 @@
     }
   }
 }
+
+@mixin prompt-custom($type) {
+  &.prompt-#{$type} {
+    background-color: var(--prompt-#{$type}-bg);
+  }
+}
